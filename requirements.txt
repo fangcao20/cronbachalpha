@@ -1,0 +1,8 @@
+Flask
+gunicorn
+fileinput
+pandas
+openpyxl
+re
+psython
+random

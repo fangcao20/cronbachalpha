@@ -1,4 +1,3 @@
-from distutils.log import debug
 from fileinput import filename
 from flask import *
 from phantich import phantichfile, ve_bieu_do

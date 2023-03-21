@@ -1,6 +1,5 @@
 import pandas as pd
 import psython as psy
-from matplotlib import pyplot as plt
 import re
 import random
 
