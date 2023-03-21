@@ -1,7 +1,6 @@
-from fileinput import filename
+# from fileinput import filename
 from flask import *
 from phantich import phantichfile, ve_bieu_do
-
 
 app = Flask(__name__)
 
@@ -26,8 +25,7 @@ def success():
                            data=data,
                            data_dict=data_dict,
                            row_num=row_num,
-                          list_datasets=list_datasets)
-
+                           list_datasets=list_datasets)
 
 
 if __name__ == '__main__':
